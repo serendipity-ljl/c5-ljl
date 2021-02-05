@@ -24,4 +24,5 @@ public class Task5 {
         a = new Circle(yuan.nextInt());
         a.show();
     }
+
 }
