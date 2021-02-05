@@ -12,4 +12,5 @@ public class Task6 {
             System.out.println("the remain is "+remain);
         }
     }
+
 }
