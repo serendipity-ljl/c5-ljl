@@ -1,11 +1,10 @@
 public class Task7 {
     public static void main(String[] args) {
-        Duck D = new Duck("鸭子","发烧",2,"感冒");
+        Duck D = new Duck("鸭子", "发烧", 2, "感冒");
         D.showMsg();
         D.showIllness();
         D.showSymptom();
     }
-
     public static abstract class Poultry{
         private String name;          //动物种类
         private String symptom;       //症状
