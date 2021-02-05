@@ -19,7 +19,6 @@ public class Task7 {
             System.out.println("两复数相乘的结果为:"+(a*c-b*d)+"+"+(a*d+b*c)+"i");
         }
     }
-
     public static void main(String[] args) {
         fushu check = new fushu();
         Scanner a = new Scanner(System.in);

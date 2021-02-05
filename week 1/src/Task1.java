@@ -28,4 +28,5 @@ public class Task1 {
         else
             System.out.println("非常肥胖");
     }
+
 }
