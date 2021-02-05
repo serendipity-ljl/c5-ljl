@@ -13,4 +13,5 @@ public class Task2 {
         }
         System.out.println("1000以内的水仙花数有"+count+"个");
     }
+
 }
