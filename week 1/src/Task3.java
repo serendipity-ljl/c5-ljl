@@ -13,4 +13,5 @@ public class Task3 {
             System.out.print(s.charAt(s.length()-1-i));
         }
     }
+
 }
