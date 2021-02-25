@@ -5,7 +5,7 @@ public class Task9 {
         System.out.println("=====================");
         Universe u = new Sun();
         u.doAnything();
-        Star s = (Star)u;
+        Sun s = (Sun) u;
         s.shine();
     }
 }

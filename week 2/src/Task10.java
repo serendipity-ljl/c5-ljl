@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Task10 {
     public static void main(String[] args) {
         Computer com= new Computer();
@@ -52,34 +54,25 @@ public class Task10 {
     }
 
     class Computer {
-        private USB[] arr= new USB[4];
+        private ArrayList<USB> usbs = new ArrayList<>();
         public void add(USB usb)
         {
-            for(int i=0;i<arr.length;i++)
-            {
-                if(arr[i]==null)
-                {
-                    arr[i]=usb;
-
-                }
-            }
+            usbs.add(usb);
         }
         public void powerOn()
         {
-            for(int i=0;i<arr.length;i++)
+            for(USB usb : usbs)
             {
-                if(arr[i]!=null)
-                    arr[i].turnOn();
+                usb.turnOn();
             }
             System.out.println("电脑开机成功");
             System.out.println("------------");
         }
         public void powerOff()
         {
-            for(int i=0;i<arr.length;i++)
+            for(USB usb : usbs)
             {
-                if(arr[i]!=null)
-                    arr[i].turnOff();
+                usb.turnOff();
             }
             System.out.println("电脑关机成功");
         }

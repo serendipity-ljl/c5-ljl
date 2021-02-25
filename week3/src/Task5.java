@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Task5 {
       static  String[] usernames ={"张三","李四","王五"};
       public static void main(String[] args) throws Exception {
