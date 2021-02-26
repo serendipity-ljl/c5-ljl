@@ -71,4 +71,5 @@ public class Task7 {
             System.out.println("症状为："+getSymptom());
         }
     }
+
 }
